@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class App extends Component {i
+//const heading = React.createElement('h1', { className: 'site-heading' }, 'Hello, React!');
+
+class App extends React.Component {
     render() {
       return (
         <div className="App">
-          <h1>Hello, React...again!</h1>
+           <h1>Hello, React...again!</h1>
         </div>
+        //<heading/>
       )
     }
   }
